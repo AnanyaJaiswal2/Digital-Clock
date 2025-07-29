@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* adds space between heading and card */
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: black;
+}
+.card{
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    width: 400px;
+    background: #443c4d;
+background: linear-gradient(90deg, rgba(68, 60, 77, 1) 0%, rgba(145, 110, 105, 1) 46%, rgba(245, 234, 220, 1) 100%);
+transition: transform 0.3s ease;
+}
+.card-content h3 {
+  font-style: italic;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+#clock {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: black;
+}
